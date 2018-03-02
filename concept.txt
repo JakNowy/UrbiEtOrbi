@@ -1,0 +1,39 @@
+Free City
++ 50% enemy core
++ 25% fort defense
++ 2 Papal influence
+
+Commonality 
+
+# goods +2 // goods +25% // prod eff + 25% - raczej goods +25%
+
+global_trade_goods_size_modifier = 0.30
+development_efficiency = 0.2
++ 0.3 RT
+
++ 0.2 inflation
+
+
+
+Patricians
+
+#mocny spy na trzecim
+
++ 30% trade eff
+- 25% advisor cost
++ 50% spy network albo rebel support albo +1 diplomat
+
++ 0.2 corruption
+
+
+Militia
++ 20% morale
+- 30% mercenary maintenance
++ 1 army trad
+
++ 0.2 war exhaustion
+
+
+
+nazwy
+rebel_support_efficiency = 0.25
