@@ -1,8 +1,8 @@
-########################################
-# Free City Factions
+	########################################
+# Independent City Factions
 ########################################
 
-Commonality =
+commonality =
 {
 	allow = {
 		has_dlc = "Rights of Man"
@@ -14,13 +14,12 @@ Commonality =
 	modifier = 
 	{
 		global_trade_goods_size_modifier = 0.3
-		development_efficiency = 0.2
-		republican_tradition = 0.3
-		
+		development_efficiency = 0.1
+		republican_tradition = 0.3		
 	}
 }
 
-Patricians =
+patricians =
 {
 	allow = {
 		has_dlc = "Rights of Man"
@@ -39,7 +38,7 @@ Patricians =
 	}
 }
 
-Militia	=
+militia	=
 {
 	allow = {
 		has_dlc = "Rights of Man"
