@@ -19,8 +19,7 @@
 
 	# If true, country will get estate
 	trigger = {	
-		NOT = { government = _city}
-		NOT = { government = imperial_city}
+		NOT = { government = independent_city}
 		NOT = { government = merchant_republic }
 		NOT = { government = veche_republic }
 		NOT = { government = trading_city }
