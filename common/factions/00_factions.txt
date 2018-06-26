@@ -13,9 +13,9 @@ commonality =
 
 	modifier = 
 	{
-		development_efficiency = 0.25
+		development_efficiency = 0.2
 		global_trade_goods_size_modifier = 0.5
-		republican_tradition = 0.3		
+		republican_tradition = 0.2		
 	}
 }
 
