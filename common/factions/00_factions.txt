@@ -1,6 +1,7 @@
 	########################################
 # Independent City Factions
 ########################################
+# Common burhers who seek safe and affluent life. Will establish a just and flourishing state with free economy.
 
 commonality =
 {
@@ -13,12 +14,14 @@ commonality =
 
 	modifier = 
 	{
-		development_efficiency = 0.25
+		colonists = 1
 		global_trade_goods_size_modifier = 0.5
-		republican_tradition = 0.3		
+		republican_tradition = 0.5
+		inflation_reduction = -0.1
 	}
 }
 
+# The most rich inhabitants of the city. They run vast trade bussinesses and also take part in politics. Have some influence abroad as well.
 patricians =
 {
 	allow = {
@@ -30,14 +33,15 @@ patricians =
 
 	modifier = 
 	{
-		trade_efficiency = 0.3
-		advisor_cost = -0.3
-		spy_offence = 0.5
-		
+		placed_merchant_power = 10
+		trade_efficiency = 0.25
+		advisor_cost = -0.25
+		yearly_corruption = 0.1
 		
 	}
 }
 
+# Guards of the city. They always want to be prepared for war - either defensive or offensive - even tho it might exhaust the city some way.
 militia	=
 {
 	allow = {
@@ -49,10 +53,10 @@ militia	=
 
 	modifier = 
 	{
-		land_morale = 0.2
-		merc_maintenance_modifier = -0.3
 		army_tradition = 1
-		
+		land_maintenance_modifier = -0.25
+		discipline = 0.05
+		war_exhaustion = 0.1
 	}
 }
 ########################################

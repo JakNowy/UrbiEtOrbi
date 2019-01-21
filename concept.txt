@@ -1,35 +1,39 @@
+-10 Liberty + 10
+
+Nowe budynki, powiazane z frakcjami.
+
 Free City
 + 50% enemy core
 + 25% fort defense
 + 2 Papal influence
 
-Commonality 
+Commonality - common craftsmen of the city, who seek peace and wealth. Their small bussineses are extremly efficient and flourish rapidly.
 
 # goods +2 // goods +25% // prod eff + 25% - raczej goods +25%
 
-global_trade_goods_size_modifier = 0.30
-development_efficiency = 0.2
-+ 0.3 RT
+global_trade_goods_size_modifier = 1
+mercenary_cost = -0.35
+republican_tradition = 0.5
 
 + 0.2 inflation
 
 
 
-Patricians
+Patricians - the high class of the city. The most educated and richest merchants in the bussiness. Know lots of people and have vast influence abroad.
 
-#mocny spy na trzecim
-
-+ 30% trade eff
-- 25% advisor cost
-+ 50% spy network albo rebel support albo +1 diplomat
++ trade_efficiency = 0.3
+- advisor_cost = -0.35
+- 30% liberty desire on same continent
 
 + 0.2 corruption
 
+# reduced_liberty_desire = 30
 
-Militia
+Militia - generals of the city. They demand absolute power in the name of protection. Since they don't have many recruits, focus on professional training and good education of the officers.
+
 + 20% morale
-- 30% mercenary maintenance
-+ 1 army trad
+- 30% army maintenance
++ 2 army trad
 
 + 0.2 war exhaustion
 
